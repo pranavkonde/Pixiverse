@@ -44,7 +44,7 @@ const Header = () => {
         onClick={() => router.push("/")}
         className="cursor-pointer hover:scale-105 ease-in duration-100"
       >
-        <PixiverseName className="h-10" />
+        {/* <PixiverseName className="h-10" /> */}
       </div>
       <div className=" flex">
         <button className="w-12" onClick={() => handleMusic()}>
